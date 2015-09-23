@@ -307,10 +307,6 @@ for x1=1:2:length(kpl)
 end
 fprintf('\n\nTime taken for calculating the SIFT keys and their desccriptors is :%f\n\n',toc);
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 %% 2ng image for comparision
 a=original;
 fprintf('Calculation of key points has been finished for the given image\n\n');
@@ -561,19 +557,6 @@ kmag=maxvm;
 kori=(((maxvp*10)+((maxvp-1)*10))/2)-180;
 kpmag2=[kpmag2 kmag];
 kpori2=[kpori2 kori];
-% maxstore=[];
-% for i=1:length(magcounts)
-%     if magcounts(i)>=0.8*maxvm
-%         maxstore=[maxstore magcounts(i) i];
-%     end
-% end
-% 
-% if maxstore > 2
-%     kmag=maxstore(1:2:length(maxstore));
-%     maxvp1=maxstore(2:2:length(maxstore));
-%     temp=(countl((2*maxvp1)-1)+countl(2*maxvp1)+1)/2;
-%     kori=temp;
-% end
 end
 
 %% Forming key point Descriptors
