@@ -22,7 +22,7 @@ int main() {
 
 	char charCheckForEscKey = 0;
 
-	while (charCheckForEscKey != 27 && capWebcam.isOpened()) {		
+	while (charCheckForEscKey != 27 && capWebcam.isOpened()) { 		
 		bool blnFrameReadSuccessfully = capWebcam.read(matOriginal);	
 
 		if (!blnFrameReadSuccessfully || matOriginal.empty()) {		
