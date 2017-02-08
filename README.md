@@ -1,5 +1,5 @@
 # codes
-These are someone of the codes which I have been wokring on since I Graduated.
+These are some of the codes which I have been wokring on since after I finished my undergrads.
 
 
-The human counting codes are the codes for my final year proejct.
+This repository also contains the code for my undergraduate thesis on human counting.
